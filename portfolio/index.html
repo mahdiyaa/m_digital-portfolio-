@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mahdiya Mazlan Ameen | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- NAV -->
+  <header class="nav-wrap">
+    <nav class="nav">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand-name">Mahdiya</span><span class="brand-dot">.</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+
+      <div class="nav-links" id="navLinks">
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#certifications">Certifications</a>
+        <a class="nav-link" href="#achievements">Achievements</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <!-- Progress bar -->
+    <div class="progress-track" aria-hidden="true">
+      <div class="progress-bar" id="progressBar"></div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero theme-hero section-sep">
+      <div class="hero-inner">
+        <p class="kicker">DIGITAL PORTFOLIO</p>
+        <h1 class="hero-title">Mahdiya Mazlan Ameen</h1>
+        <p class="hero-sub">Turning data into insights, and insights into impact.</p>
+        <a class="linkedin-btn" href="https://www.linkedin.com/in/mahdiya-mazlan-16b525393/" target="_blank" rel="noreferrer">
+          <span class="linkedin-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle;">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm15.5 11.268h-3v-5.604c0-1.337-.025-3.063-1.868-3.063-1.868 0-2.154 1.459-2.154 2.967v5.7h-3v-10h2.881v1.367h.041c.401-.761 1.379-1.563 2.841-1.563 3.039 0 3.6 2.001 3.6 4.601v5.595z"/>
+            </svg>
+          </span>
+          <span class="linkedin-text">Connect on LinkedIn</span>
+        </a>
+
+        <div class="hero-cta">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn" href="#contact">Get in Touch</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <div class="stat-num">3.62</div>
+            <div class="stat-label">Current GPA</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">7</div>
+            <div class="stat-label">O-Level Distinctions</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">3</div>
+            <div class="stat-label">Certifications</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section theme-lilac section-sep">
+      <div class="section-head center">
+        <p class="kicker purple">ABOUT ME</p>
+        <h2 class="section-title">Passionate about AI &amp; Analytics</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-left">
+          <p class="lead">
+            I am an aspiring software developer currently pursuing a Diploma in Applied AI and Analytics at Nanyang Polytechnic. My academic journey has equipped me with a strong foundation in both artificial intelligence and software engineering principles.
+          </p>
+          <p class="lead">
+            I am passionate about building robust, user-focused applications that leverage data and automation to solve real-world problems. My experience spans web development, Python programming, and collaborative project work, with a keen interest in scalable backend systems and intuitive user interfaces.
+          </p>
+          <p class="lead">
+            I am eager to contribute my technical skills, adaptability, and drive for continuous learning to a dynamic software development team.
+          </p>
+
+          <div class="mini-row">
+            <span class="mini-icon">✦</span>
+            <span class="mini-label">AREAS OF INTEREST</span>
+          </div>
+
+          <div class="chip-row">
+            <span class="chip">Software &amp; Web Development</span>
+            <span class="chip">Artificial Intelligence (AI)</span>
+            <span class="chip">Machine Learning</span>
+          </div>
+
+     
+          <div class="leadership-section">
+            <h3 class="leadership-title">Leadership Experiences</h3>
+            <ul class="leadership-list">
+              <li>President, NYP Debate and Current Affairs Club (2026–2027): Leading a team of 20+ members, organizing national-level debate events, and mentoring junior debaters.</li>
+              <li>Subcommitee Memmber of Nanyang Polytechnic Muslim Society : Organised multiple polytechnic level-events, got a chance to colloborate with various student organizations and mosques in Singapore. </li>
+              <li>Head Prefect @ Madrasah Al-Arabiah Al-Islamiah: Leading student council, organizing school events, and representing student interests.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="about-right">
+          <div class="profile-pic-wrap">
+            <img src="profile2.jpeg" alt="Profile photo of Mahdiya Mazlan Ameen" class="profile-pic" />
+          </div>
+          <article class="dark-card">
+            <div class="dark-card-top">
+              <span class="icon-badge purple">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 3 1 8l11 5 9-4.09V17h2V8L12 3Zm0 12L5 11.82V16c0 1.66 3.13 3 7 3s7-1.34 7-3v-4.18L12 15Z"/>
+                </svg>
+              </span>
+              <div class="dark-card-title">Education</div>
+            </div>
+
+            <div class="dark-card-body">
+              <div class="dark-row">
+                <div class="muted">Program</div>
+                <div class="bold">Diploma in AI &amp; Analytics</div>
+              </div>
+              <div class="dark-row">
+                <div class="muted">Institution</div>
+                <div class="bold">Nanyang Polytechnic</div>
+              </div>
+              <div class="dark-split">
+                <div>
+                  <div class="muted">Graduation</div>
+                  <div class="bold">Expected : 2028</div>
+                </div>
+                <div>
+                  <div class="muted">GPA / Grade</div>
+                  <div class="bold">3.62</div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="dark-card">
+            <div class="dark-card-top">
+              <span class="icon-badge purple">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 2a7 7 0 0 0-7 7v4H4a2 2 0 0 0-2 2v4h20v-4a2 2 0 0 0-2-2h-1V9a7 7 0 0 0-7-7Zm5 11H7V9a5 5 0 0 1 10 0v4Z"/>
+                </svg>
+              </span>
+              <div class="dark-card-title">Secondary School</div>
+            </div>
+
+            <div class="dark-card-body">
+              <div class="dark-row">
+                <div class="muted">Institution</div>
+                <div class="bold">Madrasah Al-Arabiah Al-Islamiah</div>
+              </div>
+              <div class="dark-split">
+                <div>
+                  <div class="muted">GCE “O” Levels</div>
+                  <div class="bold">2024</div>
+                </div>
+                <div>
+                  <div class="muted">Results</div>
+                  <div class="bold">7 Distinctions • L1R5=6</div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section theme-mint section-sep">
+      <div class="section-head center">
+        <p class="kicker purple">TECHNICAL EXPERTISE</p>
+        <h2 class="section-title">Skills &amp; Technologies</h2>
+      </div>
+
+      <div class="cards-2">
+        <article class="white-card">
+          <div class="white-card-top">
+            <span class="icon-badge purple">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M8.7 16.3 4.4 12l4.3-4.3L7.3 6.3 1.6 12l5.7 5.7 1.4-1.4ZM15.3 16.3l1.4 1.4 5.7-5.7-5.7-5.7-1.4 1.4L19.6 12l-4.3 4.3ZM10 20h2l2-16h-2l-2 16Z"/>
+              </svg>
+            </span>
+            <div class="white-card-title">Programming Languages</div>
+          </div>
+
+          <div class="pill-grid">
+            <span class="pill">Python</span>
+            <span class="pill">SQL</span>
+            <span class="pill">HTML</span>
+            <span class="pill">CSS</span>
+            <span class="pill">JavaScript</span>
+          </div>
+        </article>
+
+        <article class="white-card">
+          <div class="white-card-top">
+            <span class="icon-badge orange">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M22 19.6 14.6 12a6.5 6.5 0 0 0-8.3-8.3l3 3-2.3 2.3-3-3A6.5 6.5 0 0 0 12 14.6L19.6 22 22 19.6Z"/>
+              </svg>
+            </span>
+            <div class="white-card-title">Tools &amp; Technologies</div>
+          </div>
+
+          <div class="pill-grid">
+            <span class="pill">Flask &amp; Jinja</span>
+            <span class="pill">Bootstrap</span>
+            <span class="pill">Git/GitHub</span>
+            <span class="pill">PowerBI</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section theme-sky section-sep">
+      <div class="section-head center">
+        <p class="kicker purple">WORK</p>
+        <h2 class="section-title">Projects</h2>
+        <p class="subtle-note">Click on a project card to learn more and see details.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card" tabindex="0" data-project="ux2025">
+          <div class="project-top">
+            <h3 class="project-title">UX Design Project 2025</h3>
+            <p class="project-desc">
+              Created and developed a conceptual website for a co-curricular activity (CCA) in NYP — focused on Debate.
+            </p>
+          </div>
+          <div class="project-tags">
+            <span class="tag">UX</span>
+            <span class="tag">Web</span>
+            <span class="tag">Design</span>
+          </div>
+        </article>
+
+        <article class="project-card" tabindex="0" data-project="web2026">
+          <div class="project-top">
+            <h3 class="project-title">Web Development Project 2026</h3>
+            <p class="project-desc">
+              Developed a web application that serves as a communal hub for youth and the elderly.
+            </p>
+          </div>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">Python</span>
+            <span class="tag">Flask</span>
+          </div>
+        </article>
+
+        <article class="project-card" tabindex="0" data-project="bicyclists">
+          <div class="project-top">
+            <h3 class="project-title">Ageless Bicyclists Hackathon Pitch</h3>
+            <p class="project-desc">
+              Created and pitched an app proposal to help a charity with management and volunteer control.
+            </p>
+          </div>
+          <div class="project-tags">
+            <span class="tag">Pitch</span>
+            <span class="tag">Product</span>
+            <span class="tag">Operations</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="section theme-rose section-sep">
+      <div class="section-head center">
+        <p class="kicker purple">LEARNING</p>
+        <h2 class="section-title">Certifications</h2>
+      </div>
+
+      <div class="list-cards">
+        <div class="list-card">
+          <div class="list-icon purple">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 2 8 4v6c0 5 4 9 4 9s4-4 4-9V4l-4-2Z"/>
+            </svg>
+          </div>
+          <div class="list-body">
+            <div class="list-title">IBM SkillsBuild Web Development Fundamentals</div>
+            <div class="list-sub">Jun 2025</div>
+          </div>
+        </div>
+
+        <div class="list-card">
+          <div class="list-icon purple">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 2 8 4v6c0 5 4 9 4 9s4-4 4-9V4l-4-2Z"/>
+            </svg>
+          </div>
+          <div class="list-body">
+            <div class="list-title">Anthropic AI Fluency: Framework and Foundations</div>
+            <div class="list-sub">Jan 2026</div>
+          </div>
+        </div>
+
+        <div class="list-card">
+          <div class="list-icon purple">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 2 8 4v6c0 5 4 9 4 9s4-4 4-9V4l-4-2Z"/>
+            </svg>
+          </div>
+          <div class="list-body">
+            <div class="list-title">IBM SkillsBuild User Experience Design Fundamentals</div>
+            <div class="list-sub">Jun 2025</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="section theme-amber section-sep">
+      <div class="section-head center">
+        <p class="kicker purple">MILESTONES</p>
+        <h2 class="section-title">Achievements</h2>
+        <p class="subtle-note">Click an achievement to view photos.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="line"></div>
+
+        <!-- 2025 -->
+        <div class="t-item left">
+          <span class="t-dot purple"></span>
+          <div class="t-card lilac achievement-card" tabindex="0" data-achievement="nyp">
+            <div class="t-top">
+              <div>
+                <div class="t-title">2025 NYP Scholarship Award</div>
+                <div class="t-date">2025</div>
+              </div>
+              <span class="t-badge purple">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 2a7 7 0 0 0-2 13.7V22l2-1 2 1v-6.3A7 7 0 0 0 12 2Z"/>
+                </svg>
+              </span>
+            </div>
+            <p class="t-desc">Outstanding academic performance.</p>
+          </div>
+        </div>
+
+        <div class="t-item right">
+          <span class="t-dot orange"></span>
+          <div class="t-card sand achievement-card" tabindex="0" data-achievement="sinda">
+            <div class="t-top">
+              <div>
+                <div class="t-title">2025 Sinda Academic Excellence Award</div>
+                <div class="t-date">2025</div>
+              </div>
+              <span class="t-badge orange">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 3 1 8l11 5 11-5-11-5Zm-6 9v6c0 2 3 4 6 4s6-2 6-4v-6l-6 3-6-3Z"/>
+                </svg>
+              </span>
+            </div>
+            <p class="t-desc">Top 5 for GCE “O” Level Exams.</p>
+          </div>
+        </div>
+
+        <div class="t-item left">
+          <span class="t-dot purple"></span>
+          <div class="t-card lilac achievement-card" tabindex="0" data-achievement="mendaki">
+            <div class="t-top">
+              <div>
+                <div class="t-title">2025 Anugerah Mendaki Award</div>
+                <div class="t-date">2025</div>
+              </div>
+              <span class="t-badge purple">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 2 8 4v6c0 5 4 9 4 9s4-4 4-9V4l-4-2Z"/>
+                </svg>
+              </span>
+            </div>
+            <p class="t-desc">Top 10 in school for GCE “O” Level.</p>
+          </div>
+        </div>
+
+        <div class="t-item right">
+          <span class="t-dot orange"></span>
+          <div class="t-card sand achievement-card" tabindex="0" data-achievement="maulud">
+            <div class="t-top">
+              <div>
+                <div class="t-title">Lembaga Biasiswa Kenangan Maulud Excellence Award</div>
+                <div class="t-date">2025</div>
+              </div>
+              <span class="t-badge orange">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M7 2h10v7a5 5 0 0 1-10 0V2Zm5 20 3-2 3 2V9a7 7 0 0 1-6 0v13Z"/>
+                </svg>
+              </span>
+            </div>
+            <p class="t-desc">Outstanding performance in the 2024 cohort.</p>
+          </div>
+        </div>
+
+        <div class="t-item left">
+          <span class="t-dot purple"></span>
+          <div class="t-card lilac achievement-card" tabindex="0" data-achievement="converts">
+            <div class="t-top">
+              <div>
+                <div class="t-title">Muslim Converts Association Award</div>
+                <div class="t-date">2025</div>
+              </div>
+              <span class="t-badge purple">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 2a7 7 0 0 0-2 13.7V22l2-1 2 1v-6.3A7 7 0 0 0 12 2Z"/>
+                </svg>
+              </span>
+            </div>
+            <p class="t-desc">Top 5 for GCE “O” Level in cohort.</p>
+          </div>
+        </div>
+
+        <div class="t-item right">
+          <span class="t-dot orange"></span>
+          <div class="t-card sand achievement-card" tabindex="0" data-achievement="debate2025">
+            <div class="t-top">
+              <div>
+                <div class="t-title">Inter-Institutes Debate Runner-up</div>
+                <div class="t-date">2025</div>
+              </div>
+              <span class="t-badge orange">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M7 4h10v3a5 5 0 0 1-10 0V4Zm-2 0v3a7 7 0 0 0 6 6.93V16H8v2h8v-2h-3v-2.07A7 7 0 0 0 19 7V4h-2v3a5 5 0 0 1-10 0V4H5Z"/>
+                </svg>
+              </span>
+            </div>
+            <p class="t-desc">Runner-up position in the debate competition.</p>
+          </div>
+        </div>
+
+        <!-- 2024 NEW -->
+        <div class="t-item left">
+          <span class="t-dot purple"></span>
+          <div class="t-card lilac achievement-card" tabindex="0" data-achievement="nusgeo">
+            <div class="t-top">
+              <div>
+                <div class="t-title">NUS National Geography Challenge — Silver Medal</div>
+                <div class="t-date">2024</div>
+              </div>
+              <span class="t-badge purple">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 2 7 4v7c0 5 5 9 5 9s5-4 5-9V4l-5-2Z"/>
+                </svg>
+              </span>
+            </div>
+            <p class="t-desc">Awarded Silver Medal at the national-level geography challenge.</p>
+          </div>
+        </div>
+
+        <div class="t-item right">
+          <span class="t-dot orange"></span>
+          <div class="t-card sand achievement-card" tabindex="0" data-achievement="sssd">
+            <div class="t-top">
+              <div>
+                <div class="t-title">Singapore Secondary School Debate Championship</div>
+                <div class="t-date">2024</div>
+              </div>
+              <span class="t-badge orange">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 2c2.2 0 4 1.8 4 4 0 1.6-1 3-2.4 3.6V12h-3.2V9.6C9 9 8 7.6 8 6c0-2.2 1.8-4 4-4Zm-6 20v-2h12v2H6Z"/>
+                </svg>
+              </span>
+            </div>
+            <p class="t-desc">9th Place • Invited for Asian Debate Championship.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <div class="contact-inner">
+        <p class="kicker">GET IN TOUCH</p>
+        <h2 class="contact-title">Let’s Connect</h2>
+        <p class="contact-sub">Reach out for collaborations, projects, or opportunities.</p>
+
+        <form class="contact-form" onsubmit="return false;">
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@email.com" required />
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me what you need..." required></textarea>
+          </div>
+
+          <button class="btn primary" type="submit">Send</button>
+
+          <div class="contact-meta">
+            <div><span class="muted2">Email:</span> mahd.maz.08@gmail.com</div>
+            <div><span class="muted2">Phone:</span> +65 1234 5678</div>
+            <div><span class="muted2">Location:</span> Singapore</div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© 2026 Mahdiya Mazlan Ameen</p>
+    </footer>
+  </main>
+
+  <!-- =========================
+  PROJECT MODALS (Updated with LONG descriptions ✅)
+  Only Web Dev 2026 has "View Project" button ✅
+  ========================= -->
+  <div id="modal-ux2025" class="project-modal">
+    <div class="modal-content">
+      <span class="modal-close" tabindex="0">&times;</span>
+      <h2>UX Design Project 2025</h2>
+      <img src="ux.homepage.png" alt="UX Design Project Screenshot" class="modal-img" />
+
+      <p><strong>Overview:</strong> A conceptual website designed for an NYP Debate CCA to clearly communicate activities, events, and achievements to students.</p>
+      <p><strong>My role:</strong> I planned the layout and user flow, designed key pages, and focused on improving readability and navigation so users can quickly find information such as training schedules, event updates, and sign-up details.</p>
+      <p><strong>Key UX focus:</strong> Clean information hierarchy, consistent visual style, and a student-friendly design that feels modern and easy to use.</p>
+      <p><strong>Outcome:</strong> A structured, realistic prototype that shows how a CCA could present content professionally to attract new members and keep current members informed.</p>
+    </div>
+  </div>
+
+  <div id="modal-web2026" class="project-modal">
+    <div class="modal-content">
+      <span class="modal-close" tabindex="0">&times;</span>
+      <h2>Web Development Project 2026</h2>
+      <video src="wdpvideo.mp4" controls class="modal-img"></video>
+
+      <p><strong>Overview:</strong> A community web application built as a shared hub for youth and the elderly to connect, participate, and support each other through shared stories, activities, and updates.</p>
+      <p><strong>My role:</strong> I developed the web app structure and UI, designed pages for community interaction, and ensured the layout is simple, accessible, and easy for users of different ages.</p>
+      <p><strong>Tech stack:</strong> HTML, CSS, Python, and Flask (with a modular structure that allows future features like login, posting, and topic categories).</p>
+      <p><strong>Why it matters:</strong> The platform is designed to reduce social gaps by making it easier for different generations to communicate and share resources in one place.</p>
+      <p><strong>Outcome:</strong> A working web application foundation that is scalable and ready to expand with more community features.</p>
+
+      <!-- ✅ ONLY project with View Project button -->
+      <a class="btn primary" href="https://wdpprojectfinal-production.up.railway.app/storyboard" target="_blank" rel="noreferrer">View Project</a>
+    </div>
+  </div>
+
+  <div id="modal-bicyclists" class="project-modal">
+    <div class="modal-content">
+      <span class="modal-close" tabindex="0">&times;</span>
+      <h2>Ageless Bicyclists Hackathon Pitch</h2>
+      <video src="ageless cyclists.mp4" controls class="modal-img"></video>
+
+      <p><strong>Overview:</strong> A hackathon proposal where we designed an app concept to help a charity manage volunteers, events, and operations more efficiently.</p>
+      <p><strong>My role:</strong> I translated real operational needs into practical app features and contributed to structuring the pitch so the solution was clear, realistic, and impactful.</p>
+      <p><strong>Core features proposed:</strong> Volunteer scheduling, task assignment, event tracking, and simple admin tools to improve coordination and reduce manual work.</p>
+      <p><strong>Outcome:</strong> A polished pitch that communicated both social impact and operational improvement, supported by a clear user flow and feature breakdown.</p>
+    </div>
+  </div>
+
+  <!-- =========================
+  ACHIEVEMENT MODALS (Your latest kept ✅)
+  ========================= -->
+  <div id="modal-nyp" class="achievement-modal">
+    <div class="modal-content">
+      <span class="modal-close" tabindex="0">&times;</span>
+      <h2>2025 NYP Scholarship Award</h2>
+      <img src="nypscholarship.png" alt="NYP Scholarship Award" class="modal-img" />
+    </div>
+  </div>
+
+  <div id="modal-sinda" class="achievement-modal">
+    <div class="modal-content">
+      <span class="modal-close" tabindex="0">&times;</span>
+      <h2>2025 Sinda Academic Excellence Award</h2>
+      <img src="sinda.png" alt="Sinda Award" class="modal-img" />
+    </div>
+  </div>
+
+  <div id="modal-mendaki" class="achievement-modal">
+    <div class="modal-content">
+      <span class="modal-close" tabindex="0">&times;</span>
+      <h2>2025 Anugerah Mendaki Award</h2>
+      <img src="mendaki.png" alt="Mendaki Award" class="modal-img" />
+    </div>
+  </div>
+
+  <div id="modal-maulud" class="achievement-modal">
+    <div class="modal-content">
+      <span class="modal-close" tabindex="0">&times;</span>
+      <h2>Lembangan Kenangan Maulud Excellence Award</h2>
+      <img src="lbkm.png" alt="Maulud Award" class="modal-img" />
+    </div>
+  </div>
+
+  <div id="modal-converts" class="achievement-modal">
+    <div class="modal-content">
+      <span class="modal-close" tabindex="0">&times;</span>
+      <h2>Muslim Converts Association Award</h2>
+      <img src="mcas.png" alt="Converts Award" class="modal-img" />
+    </div>
+  </div>
+
+  <div id="modal-debate2025" class="achievement-modal">
+    <div class="modal-content">
+      <span class="modal-close" tabindex="0">&times;</span>
+      <h2>Inter-Institutes Debate Runner-up</h2>
+      <img src="interihl.png" alt="Debate Award" class="modal-img" />
+      <div class="ach-gallery">
+        <img src="interihl2.jpeg" alt="Debate photo 1" />
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-nusgeo" class="achievement-modal">
+    <div class="modal-content">
+      <span class="modal-close" tabindex="0">&times;</span>
+      <h2>NUS National Geography Challenge — Silver Medal (2024)</h2>
+      <img src="nusgeog.png" alt="NUS Geography Challenge" class="modal-img" />
+    </div>
+  </div>
+
+  <div id="modal-sssd" class="achievement-modal">
+    <div class="modal-content">
+      <span class="modal-close" tabindex="0">&times;</span>
+      <h2>Singapore Secondary School Debate Championship (2024)</h2>
+      <img src="sssdc.png" alt="SSSD Championship" class="modal-img" />
+      <p><strong>Result:</strong> 9th Place • Invited for Asian Debate Championship</p>
+    </div>
+  </div>
+
+  <script>
+    // Mobile nav
+    const navToggle = document.getElementById("navToggle");
+    const navLinks = document.getElementById("navLinks");
+    navToggle?.addEventListener("click", () => navLinks.classList.toggle("open"));
+
+    // Active link on scroll
+    const links = document.querySelectorAll(".nav-link");
+    const sections = [...document.querySelectorAll("section[id]")];
+    function setActive() {
+      const y = window.scrollY + 140;
+      let current = sections[0]?.id || "about";
+      for (const s of sections) if (s.offsetTop <= y) current = s.id;
+      links.forEach(a => a.classList.toggle("active", a.getAttribute("href") === `#${current}`));
+    }
+    window.addEventListener("scroll", setActive);
+    setActive();
+
+    // Reveal
+    const revealTargets = document.querySelectorAll(
+      "section, .white-card, .project-card, .dark-card, .list-card, .t-card, .stat"
+    );
+    revealTargets.forEach(el => el.classList.add("reveal"));
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add("show"); });
+    }, { threshold: 0.12 });
+    revealTargets.forEach(el => io.observe(el));
+
+    // Progress bar
+    const progressBar = document.getElementById("progressBar");
+    function updateProgress() {
+      const scrollTop = window.scrollY || document.documentElement.scrollTop;
+      const docHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+      progressBar.style.width = pct + "%";
+    }
+    window.addEventListener("scroll", updateProgress);
+    updateProgress();
+
+    // Achievement modals
+    document.querySelectorAll('.achievement-card').forEach(card => {
+      const open = () => {
+        const modal = document.getElementById('modal-' + card.dataset.achievement);
+        if (modal) modal.classList.add('active');
+      };
+      card.addEventListener('click', open);
+      card.addEventListener('keypress', e => {
+        if (e.key === 'Enter' || e.key === ' ') open();
+      });
+    });
+
+    // Project modals
+    document.querySelectorAll('.project-card').forEach(card => {
+      const open = () => {
+        const modal = document.getElementById('modal-' + card.dataset.project);
+        if (modal) modal.classList.add('active');
+      };
+      card.addEventListener('click', open);
+      card.addEventListener('keypress', e => {
+        if (e.key === 'Enter' || e.key === ' ') open();
+      });
+    });
+
+    // Close buttons (both modal types)
+    document.querySelectorAll('.modal-close').forEach(btn => {
+      const close = () => btn.closest('.achievement-modal, .project-modal')?.classList.remove('active');
+      btn.addEventListener('click', close);
+      btn.addEventListener('keypress', e => {
+        if (e.key === 'Enter' || e.key === ' ') close();
+      });
+    });
+
+    // Click outside modal content to close
+    document.querySelectorAll('.achievement-modal, .project-modal').forEach(m => {
+      m.addEventListener('click', (e) => { if (e.target === m) m.classList.remove('active'); });
+    });
+
+    window.addEventListener('keydown', e => {
+      if (e.key === 'Escape') {
+        document.querySelectorAll('.achievement-modal.active, .project-modal.active')
+          .forEach(m => m.classList.remove('active'));
+      }
+    });
+  </script>
+</body>
+</html>
+
